@@ -1,0 +1,31 @@
+{
+  "name": "node-stripe",
+  "version": "1.0.0",
+  "description": "Node.js app that uses Stripe API for payments",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jazibsawar/node-stripe.git"
+  },
+  "keywords": [
+    "node",
+    "stripe",
+    "express"
+  ],
+  "author": "Jazib Sawar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jazibsawar/node-stripe/issues"
+  },
+  "homepage": "https://github.com/jazibsawar/node-stripe#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "stripe": "^5.1.1"
+  },
+  "devDependencies": {}
+}
